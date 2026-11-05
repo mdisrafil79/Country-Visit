@@ -3,4 +3,10 @@ export interface CountryType{
         common:string,
         official:string
     }
+    flags:{
+        flags:{
+            png:string,
+            alt:string
+        }
+    }
 }

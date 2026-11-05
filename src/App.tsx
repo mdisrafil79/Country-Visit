@@ -3,6 +3,8 @@ import './App.css'
 import type { CountryType } from './Type';
 import Countries from './components/Countries';
 
+
+
 //Step - 1 : create a promise to load data
 const countriesPromise = async():Promise<CountryType[]> => {
   const res = await fetch('https://openapi.programming-hero.com/api/all');
