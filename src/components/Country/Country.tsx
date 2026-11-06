@@ -1,5 +1,5 @@
 import { useState } from "react"
-import type { CountryType } from "../../Type"
+import type { CountryType } from "../../type"
 import './Country.css'
 export interface CountryProps {
     country: CountryType
@@ -7,7 +7,7 @@ export interface CountryProps {
     handleVisitedFlag : (flag:string) => void
 }
 
-export default function Country({ country,handleVisitedCountry,handleVisitedFlag }: CountryProps) {
+export default function Country({ country,handleVisitedFlag }: CountryProps) {
 const [visited, setVisited] = useState<boolean>(false);
     const handleVisited = () => {
         // setVisited(true);

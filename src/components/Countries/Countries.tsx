@@ -1,5 +1,5 @@
 import { use, useState } from "react";
-import type { CountryType } from "../../Type"
+import type { CountryType } from "../../type"
 import Country from "../Country/Country";
 import './Countries.css'
 

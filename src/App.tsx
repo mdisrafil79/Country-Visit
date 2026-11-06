@@ -1,6 +1,6 @@
 import { Suspense } from 'react';
 import './App.css'
-import type { CountryType } from './Type';
+import type { CountryType } from './type';
 import Countries from './components/Countries/Countries';
 
 
