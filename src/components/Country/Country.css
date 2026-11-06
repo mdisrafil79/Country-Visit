@@ -3,3 +3,13 @@
     border-radius: 10px;
     margin: 1opx;
 }
+
+.country img{
+    width: 200px;
+}
+.country-visited{
+    background-color: lightgreen;
+}
+.country-visited p{
+    color: red;
+}

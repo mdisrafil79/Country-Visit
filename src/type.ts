@@ -3,6 +3,9 @@ export interface CountryType{
         common:string,
         official:string
     }
+    ccn3:{
+        ccn3:string
+    }
     flags:{
         flags:{
             png:string,
